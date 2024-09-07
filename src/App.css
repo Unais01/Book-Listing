@@ -26,6 +26,7 @@ body {
     /* max-height: 250px; */
   }
   .title{
+    font-family:'Courier New', Courier, monospace ;
     max-height: 40px;
     text-transform: capitalize;
   }
@@ -36,12 +37,15 @@ body {
   /* Image of the book */
   .book-card img {
     max-width: 100%;
+    padding: 1rem;
     height: auto;
     border-radius: 5px;
   }
   
   /* Title styling */
   .author-name{
+    margin-top: .5rem;
+    padding: 1rem;
     color:gray;
     font-family: cursive;
     text-transform: capitalize;
@@ -189,7 +193,7 @@ body {
     /* text-align: center; */
   }
   
-  .form .btn {
+   .btn {
     display: block;
     margin: 0 auto;
     width: 40%;
