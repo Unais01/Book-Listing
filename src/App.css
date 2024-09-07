@@ -48,6 +48,7 @@ body {
     padding: 1rem;
     color:gray;
     font-family: cursive;
+    letter-spacing: 2px;
     text-transform: capitalize;
     
   }
@@ -210,3 +211,16 @@ body {
     background-color: #218838;
   }
   
+
+  /* book number css floating span of book no. */
+  .book-num {
+    position: relative;
+    top: 0px;
+    right: 120px; /* Distance from the right */
+    background-color: #007bff; /* Background color */
+    color: #fffefe; /* Text color */
+    padding: 6px 10px; /* Padding around the text */
+    border-radius: 50%; /* Makes it a circle */
+    font-size: 16; /* Font size for the number */
+    font-weight: bold; /* Makes the number bold */
+  }
